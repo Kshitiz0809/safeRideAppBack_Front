@@ -1,0 +1,39 @@
+# Training data (large/derived, not needed to run the app)
+trainingdata/
+
+# Python (backend)
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Flutter/Dart (saferider)
+saferider/.dart_tool/
+saferider/.flutter-plugins-dependencies
+saferider/.pub-cache/
+saferider/.pub/
+saferider/build/
+saferider/.metadata
+saferider/android/app/debug
+saferider/android/app/profile
+saferider/android/app/release
+saferider/android/build/
+saferider/android/.gradle/
+saferider/**/build/
+saferider/**/doc/api/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.swp
+
+# Claude Code local config
+.claude/
+
+# Misc
+*.log
